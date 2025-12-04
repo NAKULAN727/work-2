@@ -20,7 +20,7 @@ export const PostionStyle = styled.div`
     width: 1000px;
     height: 1000px;
     background-color: red;
-    // position: absolute;
+    //position: absolute;
   }
   .square__element {
     background-color: yellow;

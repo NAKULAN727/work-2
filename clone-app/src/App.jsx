@@ -81,8 +81,93 @@
 
 // export default App;
 
-import MediaComponent from "./Clone/media-component";
+// import MediaComponent from "./Clone/media-component";
 
-export default function App() {
-  return <MediaComponent />;
+// export default function App() {
+//   return <MediaComponent />;
+// }
+import "./App.css";
+// import FlexBoxComponent from "./flex-box/flex-box-component";
+// import HelloWorldComponent from "./hello-world/hello-world-component";
+// import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+// import PostionComponent from "./positioning/position-component";
+// import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-execllence-component";
+// import TrustedbyComponent from "./trusted-by/trusted-by-component";
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <HelloWorldComponent /> */}
+//       {/* <FlexBoxComponent /> */}
+//       {/* <LeadersTomorrowComponent /> */}
+//       {/* <SymbolOfExcellenceComponent /> */}
+//       {/* <PostionComponent /> */}
+//       <TrustedbyComponent />
+//     </div>
+//   );
+// }
+
+// export default App;
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+
+// function App() {
+//   const [count, setCount] = useState(0)
+
+//   return (
+//     <>
+//       <div>
+//         <a href="https://vite.dev" target="_blank">
+//           <img src={viteLogo} className="logo" alt="Vite logo" />
+//         </a>
+//         <a href="https://react.dev" target="_blank">
+//           <img src={reactLogo} className="logo react" alt="React logo" />
+//         </a>
+//       </div>
+//       <h1>Vite + React</h1>
+//       <div className="card">
+//         <button onClick={() => setCount((count) => count + 1)}>
+//           count is {count}
+//         </button>
+//         <p>
+//           Edit <code>src/App.jsx</code> and save to test HMR
+//         </p>
+//       </div>
+//       <p className="read-the-docs">
+//         Click on the Vite and React logos to learn more
+//       </p>
+//     </>
+//   )
+// }
+
+// export default App
+import "./App.css";
+import ImpactComponent from "./Impact/impact-component";
+// import FlexBoxComponent from "./flex-box/flex-box-component";
+// import HelloWorldComponent from "./hello-world/hello-world-component";
+// import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+// import SymbolComponent from "./symbol/symbol-component";
+// import TrustedbyComponent from "./trusted-by/trusted-by-component";
+//import ContactUsComponent from "./contact-us/contact-us-component";
+// import PostionComponent from "./positioning/position-component";
+// function App() {
+//   return (
+//     <div>
+//       <ContactUsComponent />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+function App() {
+  return (
+    <div>
+      <ImpactComponent />
+    </div>
+  );
 }
+
+export default App;
