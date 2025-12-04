@@ -9,8 +9,10 @@ export const ImpactStyle = styled.div`
   .parent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 30px;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 40px;
+    box-sizing: border-box;
   }
 
   .child1,
@@ -51,18 +53,23 @@ export const ImpactStyle = styled.div`
     font-size: 16px;
     font-weight: 500;
     color: black;
+    font-family: Inter, sans-serif;
   }
 
   .numbers {
     font-size: 22px;
     font-weight: 700;
     color: black;
+    font-family: Inter, sans-serif;
   }
 
   .card-image {
     width: 120px;
-    height: 150px;
+    height: 120px;
     //object-fit: contain;
+    position: relative;
+    right: 20px;
+    top: 20px;
   }
 
   .glance {
