@@ -144,7 +144,8 @@ import "./App.css";
 
 // export default App
 import "./App.css";
-import ImpactComponent from "./Impact/impact-component";
+import OurPromiseComponent from "./our-promise/our-promise-component";
+//import ImpactComponent from "./Impact/impact-component";
 // import FlexBoxComponent from "./flex-box/flex-box-component";
 // import HelloWorldComponent from "./hello-world/hello-world-component";
 // import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
@@ -165,7 +166,8 @@ import ImpactComponent from "./Impact/impact-component";
 function App() {
   return (
     <div>
-      <ImpactComponent />
+      {/* <ImpactComponent /> */}
+      <OurPromiseComponent />
     </div>
   );
 }
