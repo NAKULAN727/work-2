@@ -56,6 +56,7 @@ export const OurPromiseStyle = styled.div`
     font-size: 20px;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
+    color:gray;
   }
 
   .card-text {
